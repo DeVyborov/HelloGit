@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
 
-        if(start_x != 0 && end_x != 0) {
+        if(start_x != 0 && end_x != 0)
+        {
             if (start_x > end_x) {
                 setContentView(R.layout.activity_main);
             }
@@ -38,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
             start_x = 0;
             end_x = 0;
         }
-
         return  false;
     }
 }
