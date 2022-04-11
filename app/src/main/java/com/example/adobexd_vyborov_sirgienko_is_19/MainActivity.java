@@ -1,7 +1,6 @@
 package com.example.adobexd_vyborov_sirgienko_is_19;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.MotionEvent;
 
@@ -26,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
                 end_x = (int) event.getX();
                 break;
         }
-
         if(start_x != 0 && end_x != 0)
         {
             if (start_x > end_x) {
